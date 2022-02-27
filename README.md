@@ -1,4 +1,8 @@
-# Projeto
+# Projeto de Ciência de Dados: Análise descritiva da pandemia de COVID-19 no Brasil versus países selecionados
 
-## Título
-Some text.
+## 1.	Objetivo 
+O presente trabalho tem como objetivo principal a análise descritiva de dados e indicadores relativos ao desenvolvimento da pandemia de COVID-19 no Brasil e em países selecionados. Com isso, esperamos obter certas conclusões sobre como o vírus se propagou pelo território nacional ao longo do tempo, quais as suas consequências sobre a saúde da população e como o processo de vacinação pode ter ajudado no controle da doença, utilizando como parâmetro de comparação os países que compõem o G10.
+
+## 2.	Metodologia
+No desenvolvimento do projeto empregamos como metodologia principal a análise descritiva de dados secundários, por meio da elaboração de sete gráficos. 
+A fonte principal das bases utilizadas foi o projeto COVID-19 Data Hub por meio do pacote COVID-19 no R, elaborado pelo estudante de PhD da Universidade de Neuchâtel, Emanuele Guidotti. Além disso, também utilizamos o indicador de mobilidade do Google para comércio de varejo, fornecido pelo mesmo pacote. As variáveis selecionadas para a construção das visualizações foram: número de casos confirmados (“confirmed”), número de mortes confirmadas (“deaths”), número de pessoas totalmente vacinadas (“people_fully_vaccinated”), população total (“population”) e o indicador de mobilidade do Google (“retail_and_recreation_percent_change_from_baseline”). Com isso definido, pudemos criar novas variáveis, como a média móvel de sete dias de novos casos (“novos_casos_mm7d”), média móvel de sete dias de novas mortes (“novas_mortes_mm7d”), porcentagem da população totalmente vacinada (“pop_pct_vacinada”), entre outras. 
